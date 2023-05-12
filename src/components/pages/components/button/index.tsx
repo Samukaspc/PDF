@@ -1,11 +1,17 @@
 import { Button } from 'antd';
-function ButtonComponent({ type, style }: any) {
+
+function ButtonComponent({ style, type }: any) {
   return (
-    <Button
-      type={type}
-      style={style}
-    />
+    <>
+      <Button
+        type={type}
+        style={style}
+      >
+        Enviar
+      </Button>
+    </>
   );
 }
+
 
 export default ButtonComponent;
